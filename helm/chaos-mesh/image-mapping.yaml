@@ -1,0 +1,5 @@
+image-mapping:
+- ghcr.io/chaos-mesh/chaos-mesh:latest: compute-nest-registry.cn-hangzhou.cr.aliyuncs.com/1853370294850618/chaos-mesh/chaos-mesh:latest
+- ghcr.io/chaos-mesh/chaos-dashboard:latest: compute-nest-registry.cn-hangzhou.cr.aliyuncs.com/1853370294850618/chaos-mesh/chaos-dashboard:latest
+- ghcr.io/chaos-mesh/chaos-coredns:v0.2.6: compute-nest-registry.cn-hangzhou.cr.aliyuncs.com/1853370294850618/chaos-mesh/chaos-coredns:v0.2.6
+- ghcr.io/chaos-mesh/chaos-daemon:latest: compute-nest-registry.cn-hangzhou.cr.aliyuncs.com/1853370294850618/chaos-mesh/chaos-daemon:latest

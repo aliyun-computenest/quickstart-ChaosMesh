@@ -1,0 +1,8 @@
+images:
+  registry: compute-nest-registry.cn-hangzhou.cr.aliyuncs.com/1853370294850618
+dashboard:
+  persistentVolume:
+    size: 40Gi
+    storageClassName: alicloud-disk-essd
+  service:
+    type: LoadBalancer
