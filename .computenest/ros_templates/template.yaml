@@ -435,9 +435,10 @@ Resources:
   AckOrAcsClusterModule:
     DependsOn:
       - VpcModule
-    Type: MODULE::ACS::ComputeNest::AckOrAcsCluster
-    Version: default
+    Type: MODULE::SHARE::1853370294850618::AckOrAcsCluster
+    Version: v14
     Properties:
+      KubernetesVersion: 1.36.2-aliyun.1
       CsOptions:
         Ref: CsOptions
       ClusterId:
